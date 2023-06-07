@@ -8,9 +8,9 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="{{asset('template/plugins/fontawesome-free/css/all.min.css')}}">
+  <link rel="stylesheet" href="{{asset('adminlte/plugins/fontawesome-free/css/all.min.css')}}">
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{asset('template/dist/css/adminlte.min.css')}}">
+  <link rel="stylesheet" href="{{asset('adminlte/dist/css/adminlte.min.css')}}">
 
   @stack('style')
 
@@ -85,13 +85,13 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="{{asset('template/plugins/jquery/jquery.min.js')}}"></script>
+<script src="{{asset('adminlte/plugins/jquery/jquery.min.js')}}"></script>
 <!-- Bootstrap 4 -->
 <script src="{{asset('temmplate/plugins/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 <!-- AdminLTE App -->
-<script src="{{asset('template/dist/js/adminlte.min.js')}}"></script>
+<script src="{{asset('adminlte/dist/js/adminlte.min.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{asset('template/dist/js/demo.js')}}"></script>
+<script src="{{asset('adminlte/dist/js/demo.js')}}"></script>
 
 @stack('script')
 </body>
