@@ -17,10 +17,12 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+// menambahkan route ke data-table
 Route::get('/data-table', function () {
     return view('data-table');
 });
 
+// menambahkan route ke table
 Route::get('/table', function () {
     return view('table');
 });
