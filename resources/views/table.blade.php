@@ -1,7 +1,7 @@
 @extends('layout.master')
 
 @section('judul')
-    Table
+    Halaman Table
 @endsection
 
 @section('content')
