@@ -4,8 +4,8 @@
     Halaman Data Table
 @endsection
 @push('script')
-    <script src="{{ asset('template/plugins/datatables/jquery.dataTables.js') }}"></script>
-    <script src="{{ asset('tempalte/plugins/datatables-bs4/js/dataTables.bootstrap4.js') }}"></script>
+    <script src="{{ asset('adminlte/plugins/datatables/jquery.dataTables.js') }}"></script>
+    <script src="{{ asset('adminlte/plugins/datatables-bs4/js/dataTables.bootstrap4.js') }}"></script>
     <script>
         $(function() {
             $("#example1").DataTable();
